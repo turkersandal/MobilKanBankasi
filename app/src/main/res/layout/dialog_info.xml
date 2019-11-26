@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewSehirS" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewKanS" android:textSize="15sp"/>
+    <TextView
+            android:text="Ad Soyad:"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textviewMail"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textViewAdS" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:textSize="15sp"/>
+    <TextView
+            android:text="E-Mail:"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewEmail" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textViewEmailS" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textviewMail" android:textSize="15sp"/>
+    <TextView
+            android:text="Kan Grubu:"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewKan" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toStartOf="@+id/textViewKanS"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmail" android:textSize="15sp"/>
+    <TextView
+            android:text="Şehir:"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewSehir" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textViewSehirS" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewKan" android:textSize="15sp"/>
+    <TextView
+            android:text="Telefon No:"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewTelefon" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textViewTelefonS" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSehir" android:textSize="15sp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewTelefonS" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSehirS" android:textSize="15sp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewEmailS" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAdS" android:layout_marginTop="8dp"
+            android:textSize="15sp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewKanS" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmailS" android:textSize="15sp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="145dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewAdS" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="15sp"/>
+    <TextView
+            android:text="Yaş:"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewYas" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toStartOf="@+id/textViewYasS"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTelefon" android:textSize="15sp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/textViewYasS" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTelefonS" android:textSize="15sp"/>
+</android.support.constraint.ConstraintLayout>
