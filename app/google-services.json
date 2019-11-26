@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542415213305",
+    "firebase_url": "https://mobilkanbankasi-f352f.firebaseio.com",
+    "project_id": "mobilkanbankasi-f352f",
+    "storage_bucket": "mobilkanbankasi-f352f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542415213305:android:eee1f77677523724",
+        "android_client_info": {
+          "package_name": "com.example.lenovoz500.mobilkanbankasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542415213305-qpgvrprsv6u5na4fpm7apjkbp2kpnsip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovoz500.mobilkanbankasi",
+            "certificate_hash": "b68d15b8608e1b3ea90e5085b231484d83a8f4b1"
+          }
+        },
+        {
+          "client_id": "542415213305-nm5c8a4fsoqig49pk5bfc5okhqhgqdkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVQmAzIq0xPaCIsYLt7nTkyO2gu4Uer1Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542415213305-nm5c8a4fsoqig49pk5bfc5okhqhgqdkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
